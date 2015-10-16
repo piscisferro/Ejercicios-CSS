@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cajas con Sombras</title>
+        
+        <style>
+        
+            .caja {
+                text-align: center;
+                padding: 30px 0 0 0;
+                width: 150px;
+                height: 50px;
+                background-color: lightgray;
+                float: left;
+                margin: 10px 10px 10px 10px;
+                
+            }
+            
+            #contenedor1 {
+                
+                clear: both;
+                overflow: hidden;
+                
+            }
+            
+            #contenedor2 {
+                
+                clear: both;    
+                margin: 30px 0 0 0;
+                overflow: hidden;
+                
+            }
+            
+            #contenedor3 {
+                
+                clear: both;    
+                margin: 30px 0 0 0;
+                overflow: hidden;
+                
+            }
+            
+            /******************************/
+            /******** Ejercicio 1 *********/
+            /******************************/
+            
+            #caja1 {
+                box-shadow: -5px -5px 0px grey;
+            }
+            
+            #caja2 {
+                box-shadow: -5px -5px 5px grey;
+            }
+            
+            #caja3 {
+                box-shadow: 10px 10px 0px grey inset;
+            }
+            
+            #caja4 {
+                box-shadow: -5px -5px 5px 5px grey;
+            }
+            
+            #caja5 {
+                box-shadow: 0px 0px 5px 1px grey;
+            }
+            
+            #caja6 {
+                box-shadow: 0px 0px 5px 5px grey;
+            }
+            
+            #caja7 {
+                box-shadow: -4px -4px 0px grey inset;
+            }
+            
+            #caja8 {
+                box-shadow: -4px -4px 5px grey inset;
+            }
+            
+            #caja9 {
+                box-shadow: -5px -5px 0px grey inset;
+            }
+            
+            #caja10 {
+                box-shadow: -5px -5px 10px 5px grey inset;
+            }
+            
+            #caja11 {
+                box-shadow: 0px 0px 10px 1px grey inset;
+            }
+            
+            #caja12 {
+                box-shadow: 0px 0px 10px 5px grey inset;
+            }
+            
+            /******************************/
+            /******** Ejercicio 2 *********/
+            /******************************/
+            
+            #cajaBordes1 {
+                
+                color: white;
+                background-color: black;
+                border-bottom-right-radius: 60%;
+                
+            }
+            
+            #cajaBordes2 {
+                
+                color: white;
+                background-color: black;
+                border-bottom-right-radius: 40%;
+                
+            }
+            
+            #cajaBordes3 {
+                
+                color: white;
+                background-color: black;
+                border-bottom-right-radius: 40px;
+            }
+            
+            #cajaBordes4 {
+                
+                color: white;
+                background-color: black;
+                border-bottom-left-radius: 60px;
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 60px;
+            }
+            
+            #cajaBordes5 {
+                
+                color: white;
+                background-color: black;
+                border-radius: 15%;
+            }
+            
+            #cajaBordes6 {
+                
+                width: 80px;
+                height: 50px;
+                color: white;
+                background-color: black;
+                border-radius: 100% 100%;
+            }
+            
+            #texto1 {
+                
+            }
+            
+            #texto1 {
+                
+            }
+            
+            #texto1 {
+                
+            }
+            
+            #texto1 {
+                
+            }
+            
+            #texto1 {
+                
+            }
+            
+            #texto1 {
+                
+            }
+            
+        </style>
+        
+    </head>
+    
+    <body>
+		<div id="contenedor">
+            <div id="Ejercicio1">
+                <h3>Ejercicio 1 </h3>
+                <div id="caja1" class="caja">A</div>
+                <div id="caja2" class="caja">B</div>
+                <div id="caja3" class="caja">C</div>
+                <div id="caja4" class="caja">D</div>
+                <div id="caja5" class="caja">E</div>
+                <div id="caja6" class="caja">F</div>
+                <div id="caja7" class="caja">G</div>
+                <div id="caja8" class="caja">H</div>
+                <div id="caja9" class="caja">I</div>
+                <div id="caja10" class="caja">J</div>
+                <div id="caja11" class="caja">K</div>
+                <div id="caja12" class="caja">L</div>
+		    </div>
+        </div>
+        <div id="contenedor2">
+		    <div id="Ejercicio2">
+                <h3>Ejercicio 2 </h3>
+		        <div id="cajaBordes1" class="caja">A</div>
+		        <div id="cajaBordes2" class="caja">B</div>
+		        <div id="cajaBordes3" class="caja">C</div>
+		        <div id="cajaBordes4" class="caja">D</div>
+		        <div id="cajaBordes5" class="caja">E</div>
+		        <div id="cajaBordes6" class="caja">F</div>
+		    </div>
+        </div>
+        
+        <div id="contenedor3">
+		    <div id="Ejercicio3">
+                <h3>Ejercicio 3</h3>
+		        <p id="texto1">Las Sombras de este Texto Fueron Definidas en 1997</p>
+		        <p id="texto2">Las Sombras de este Texto Fueron Definidas en 1997</p>
+		        <p id="texto3">Las Sombras de este Texto Fueron Definidas en 1997</p>
+		        <p id="texto4">Las Sombras de este Texto Fueron Definidas en 1997</p>
+		        <p id="texto5">Las Sombras de este Texto Fueron Definidas en 1997</p>
+		        <p id="texto6">Las Sombras de este Texto Fueron Definidas en 1997</p>
+		    </div>
+		</div>
+    </body>
+</html>

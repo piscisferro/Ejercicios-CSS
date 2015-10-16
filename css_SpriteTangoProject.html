@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sprite CSS</title>
+        <style>
+            
+            /* 14 por la izquierda, 5 por arriba y 8px entre icono e icono, los iconos son 16x16*/
+        
+            #icono1 span, #icono2 span, #icono3 span, #icono4 span {
+                padding-left: 16px;
+                height: 16px;
+                
+                display: inline-block;
+                background-image: url("imagenes/tangoproject.jpg");
+                background-repeat: no-repeat;
+                vertical-align: middle;
+                margin-right: 15px;
+            }
+            
+            #icono1 span {
+                background-position: -278px -53px;
+            }
+            
+            #icono2 span{
+                background-position: -350px -53px;
+            }
+            
+            #icono3 span {
+                background-position: -615px -101px;
+            }
+            
+
+            #icono4 span {
+                background-position: -86px -101px;
+            }
+        
+        </style>
+    </head>
+    
+    <body>
+		<div id="contenedor">
+            <h3>Sprite multiples Iconos</h3>
+            <p id="icono1"><span></span>Gafas</p>
+            <p id="icono2"><span></span>Mono</p>
+            <p id="icono3"><span></span>Punto Rojo</p>
+            <p id="icono4"><span></span>Ratón</p>
+		
+		</div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Texto Degradado</title>
+        
+        <style>
+        
+            #texto {
+                font-size: 6em;
+                
+                /*background-image:-webkit-gradient(linear,left top,left bottom,from(red),to(black)); /* Degradado */
+
+                /*-webkit-background-clip: text; /* Con esto adaptamos el degradado al texto */
+    
+                /*-webkit-text-fill-color: transparent; /* Ocultamos el color del texto para no afectar el degradado */
+
+                background-image: linear-gradient(to bottom, red, black); 
+                
+                -webkit-background-clip: text; /* Con esto adaptamos el degradado al texto */
+
+                color: transparent; /* Ocultamos el color del texto para no afectar el degradado */
+                
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+		<div id="contenedor">
+		    <p id="texto"> Texto Degradado</p>
+		
+		</div>
+    </body>
+</html>

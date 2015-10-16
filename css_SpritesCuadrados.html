@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sprite CSS</title>
+        <style>
+        
+            #localidad1 span, #localidad2 span, #localidad3 span, #localidad4 span {
+                padding-left: 52px;
+                height: 48px;
+                line-height: 48px;
+                display: inline-block;
+                background-image: url("imagenes/sprite2.png");
+                background-repeat: no-repeat;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+            
+            #localidad1 span {
+                background-position: 5px 2px;
+            }
+            
+            #localidad2 span{
+                background-position: 5px -46px;
+            }
+            
+            #localidad3 span {
+                background-position: -46px 1px;
+            }
+            
+
+            #localidad4 span {
+                background-position: -48px -46px;
+            }
+        
+        </style>
+    </head>
+    
+    <body>
+		<div id="contenedor">
+            <h3>Previsiones meteorológicas</h3>
+            <p id="localidad1"><span></span>Localidad 1: soleado, máx: 35º, mín: 23º</p>
+            <p id="localidad2"><span></span>Localidad 2: nublado, máx: 25º, mín: 13º</p>
+            <p id="localidad3"><span></span>Localidad 3: muy nublado, máx: 22º, mín: 10º</p>
+            <p id="localidad4"><span></span>Localidad 4: tormentas, máx: 23º, mín: 11º</p>
+		
+		</div>
+    </body>
+</html>
