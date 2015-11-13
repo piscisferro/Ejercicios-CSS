@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Practica 4</title>
+        
+        <style>
+        
+            #imagenazul {
+                
+                width: 400px;
+                height: 200px;
+                background-image: url(img/imagen.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 0 -200px;
+                
+            }
+            
+            #capa1, #capa2, #capa3, #capa4 {
+	            
+                width: 100px;
+                height: 200px;
+                background-image: url(img/imagen.jpg);
+                opacity: 1;
+                display: inline-block;
+                float: left;
+            }
+            
+            #capa2 {
+	            
+                background-position: -100px 0;
+                
+            }
+            
+            #capa3 {
+	            
+                background-position: -200px 0;
+            }
+            
+            #capa4 {
+	            
+                background-position: -300px 0;
+            }
+            
+            
+            #capa1:hover, #capa2:hover, #capa3:hover, #capa4:hover {
+                
+                
+                opacity: 0;
+                
+            }
+             
+        </style>
+        
+    </head>
+    
+    <body>
+		<div id="contenedor">
+		    <div id="imagenazul">
+                <div id="capa1"></div>
+                <div id="capa2"></div>
+		        <div id="capa3"></div>
+		        <div id="capa4"></div>
+		    </div>
+		</div>
+    </body>
+</html>

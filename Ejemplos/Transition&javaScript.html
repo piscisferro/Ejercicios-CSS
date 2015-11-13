@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Titulo de la pagina</title>
+        
+        <style>
+        
+            p { 
+                padding-left: 60px; 
+            }
+            
+            #foo { 
+                border-radius: 50px; 
+                width: 50px; 
+                height: 50px; 
+                background: #c00; 
+                position: absolute; 
+                top: 0; 
+                left: 0; 
+                transition: all 1s;
+            }
+            
+            
+        </style>
+        
+        <script>
+            
+            window.onload = function () {   
+                var f = document.getElementById('foo'); 
+
+                document.addEventListener('click', function(ev) { 
+
+                    f.style.left = (ev.clientX-25)+'px'; 
+                    f.style.top = (ev.clientY-25)+'px';
+
+                },false);
+            }
+            
+            
+        </script>
+        
+    </head>
+    
+    
+    <body>
+		<div id="contenedor">
+		<p>Click anywhere to move the ball</p> 
+		<div id="foo"></div>
+		</div>
+    </body>
+</html>
