@@ -1,0 +1,149 @@
+#animacion {
+    
+    width: 720px;
+    height: 300px;
+    background-image: url(img/background.png);
+    
+    /*
+    overflow: hidden;*/
+}
+
+#background {
+    
+    position: absolute;
+    width: 1450px;
+    height: 300px;
+    display: inline-block;
+    
+}
+
+#bg1 {
+    
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    width: 720px;
+}
+
+#bg2 {
+    
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    width: 720px;
+	
+}
+
+.nube1 {
+    
+    position: absolute;
+	left: 50px;
+    top: 10px;
+    display: inline-block;
+}
+
+.nube2 {
+    
+    position: absolute;
+    left: 325px;
+    top: 80px;
+    display: inline-block;
+	
+}
+
+.nube3 {
+    
+    position: absolute;
+    left: 550px;
+    top: 0px;
+    display: inline-block;
+	
+}
+
+#barco {
+    
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 50px;
+    left: -150px;
+    animation-name: entradaAnimation;
+    animation-iteration-count: 1;
+    animation-duration: 3;
+    animation-delay: 0;
+	
+}
+
+#barcoimg {
+    
+    position: absolute;
+    top: 25px;
+	
+}
+
+#interrogacion {
+    
+    left: 190px;
+	position: absolute;
+    
+}
+
+#aguafondo {
+	
+    position: absolute;
+    background-image: url(img/agua-fondo.png);
+    background-repeat: repeat-x;
+    z-index: 4;
+    width: 775px;
+    height: 84px;
+    left: -25px;
+}
+
+#agua {
+    
+    position: absolute;
+    background-image: url(img/agua-frente.png);
+    background-repeat: repeat-x;
+    z-index: 5;
+    width: 775px;
+    height: 158px;
+    left: -25px;
+	
+}
+
+#mensaje {
+	color: blue;
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 300px;
+    text-align: center;
+    font-size: 3em;
+    position: absolute;
+    z-index: 6;
+    
+}
+
+-webkit-@keyframes nubesAnimation{
+    
+}
+
+@keyframes entradaAnimation {
+    
+    from {left: -150px;}
+    to {left: 10px;}
+    
+}
+
+-webkit-@keyframes barcoAnimation  {
+    
+    
+}
+
+-webkit-@keyframes aguaAnimation {
+    
+}
+
+-webkit-@keyframes aguafondoAnimation {
+    
+}

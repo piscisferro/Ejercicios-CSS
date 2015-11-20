@@ -87,7 +87,8 @@ nav {
     
     nav {
         float: none;
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         
     }
     
@@ -95,7 +96,14 @@ nav {
         
         display: inline-block;
         list-style-image: none;
-        margin-right: 5%;
+        margin-right: 2%;
+        
+    }
+    
+    header {
+        
+        width: 90%;
+        margin: 0 auto;
         
     }
     
