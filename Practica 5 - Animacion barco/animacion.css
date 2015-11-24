@@ -79,9 +79,11 @@
     -webkit-animation-name: barcoAnimation;
     -webkit-animation-duration: 4s;    
     -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     animation-name: barcoAnimation;
     animation-duration: 4s;    
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     
     
 	
@@ -131,7 +133,7 @@
     z-index: 4;
     width: 775px;
     height: 84px;
-    left: -25px;
+    left: -22px;
     top: 250px;
     
     animation-name: aguaAnimation;
@@ -161,11 +163,13 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
+    animation-timing-function: linear;
 
     -webkit-animation-name: aguaAnimation;
     -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate-reverse;
+    -webkit-animation-timing-function: linear;
 	
 }
 
@@ -240,16 +244,16 @@
 
 -webkit-@keyframes aguaAnimation {
     
-    0% {top: 0px; left: -25px;}
-    60% {top: 5px; left: -22px;}
-    100% {top: 0px; left: -20px;}
+    0% {top: 250px; left: -25px;}
+    50% {top: 257px; left: -22px;}
+    100% {top: 250px; left: -18px;}
 }
 
 @keyframes aguaAnimation {
     
     0% {top: 250px; left: -25px;}
-    50% {top: 255px; left: -22px;}
-    100% {top: 250px; left: -20px;}
+    50% {top: 257px; left: -22px;}
+    100% {top: 250px; left: -18px;}
 }
 
 
