@@ -1,0 +1,146 @@
+@font-face {
+    font-family: simbolos;
+    src: url("fonts/WebSymbols-Regular.otf");
+}
+
+#boton4 {
+    
+    display: inline-block;
+    overflow: hidden;
+    width: 180px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #fecc5f;
+    position: relative;
+    text-align: left;
+    
+    border: 1px solid #f5b74e;
+    -webkit-box-shadow: 0px 1px 0px #fee395 inset;
+    box-shadow: 0px 1px 0px #fee395 inset;
+    
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    
+}
+
+#b4texto1, #b4texto2, b4capa2 {
+	
+    display: inline-block;
+    
+}
+
+#b4texto1 {
+	
+    padding: 6px 0;
+    width: 140px;
+    
+    color: #996633;
+    text-indent: 10px;
+    
+    text-shadow: 0px 1px 0px #fedd9b;
+    -webkit-text-shadow: 0px 1px 0px #fedd9b;
+    
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    
+    text-shadow: 0px 1px 0px #ffe3a5;
+    -webkit-text-shadow: 0px 1px 0px #ffe3a5;
+    
+}
+
+#b4texto2 {
+    
+    overflow: hidden;
+    background-color: white;
+    color: #af4646;
+    font-size: 14px;
+    font-style: italic;
+    text-indent: 10px;
+    height: 0;
+    width: 140px;
+    padding: 6px 0px;
+    
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+    -webkit-text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+    
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.6) inset;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.6) inset
+    
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    
+}
+
+#b4capa2 {
+    
+    position: absolute;
+    font-family: simbolos;
+    font-size: 16px;    
+    color: white;
+    opacity: 0.6;
+    top: 15%;
+    left: 50%;
+    
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    
+    text-shadow: 1px 1px 0px #afafaf;
+    -webkit-text-shadow: 1px 1px 0px #afafaf;
+    
+}
+
+#b4capa1 {
+    
+    background: none;
+    border-left: 1px solid #d49713;
+    position: absolute;
+    left: 140px;
+    top: 0px;
+    height: 100%;
+    text-indent: 10px;
+    
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+
+#boton4:hover {
+	
+    height: 65px;
+    
+}
+
+#boton4:hover #b4texto1 {
+    
+    color: white;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+    -webkit-text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+    
+    
+}
+
+#boton4:hover #b4texto2 {
+
+    height: 30px;
+
+    
+}
+
+#boton4:hover #b4capa2 {
+
+    opacity:1;
+    -webkit-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    top: 40%;
+    
+}
+
+#boton4:active {
+    
+    top: 1px;
+    background-color: #fdb735;
+    border-color: #d29a3a;
+    box-shadow: 0px 1px 1px #fed17e inset;
+    -webkit-box-shadow: 0px 1px 1px #fed17e inset;
+    transition-duration: 0s;
+    
+}
