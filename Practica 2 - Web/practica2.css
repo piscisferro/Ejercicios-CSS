@@ -41,7 +41,11 @@ body {
     
     display: block;
     width: 1200px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 0 auto;
+    font-family: contenido;
+    font-size: 21px;
+    padding: 25px 0;
+    padding-left: 30px;
     
 }
 
@@ -52,6 +56,16 @@ h1 {
     font-family: titulos;
     font-weight: 300;
     white-space: pre-line;
+	
+}
+
+h2 {
+    
+    color: black;
+    font-family: titulos;
+    font-weight: 300;
+    white-space: pre-line;
+    margin-bottom: -10px;
 	
 }
 
@@ -181,3 +195,165 @@ a {
     color: white;
     
 }
+
+
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+
+
+#nuestroSitio {
+	
+    background-color: #F6F6F6;
+    text-align: center;
+    color: #7a7979;
+    margin-top: -25px;
+    
+}
+
+#nuestroSitio .contenido figure {
+	
+    
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    
+}
+
+#nuestroSitio .contenido figure img {
+    
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    
+}
+
+.botoncuadrado {
+	
+    position: relative;
+    display: inline-block;
+    width: 106px;
+    height: 51px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 52px;
+    background-color: #52d3b7;
+    color: white;
+    text-decoration: none;
+    
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    
+    
+}
+
+
+.botoncuadrado:hover {
+    
+    background-color: black; 
+    color: white;
+    
+}
+
+
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+
+#loquehacemos {
+	
+    background-color: white;
+    text-align: center;
+    color: #7a7979;
+    
+}
+
+#subloquehacemos {
+    
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.tabla {
+	
+    display: table;
+    margin-bottom: 25px;
+    
+}
+
+.columna {
+	
+    display: table-row;
+    
+}
+
+.celda {
+	
+    width: 390px;
+    height: 221px;
+    display: table-cell;
+    box-sizing: border-box;
+}
+
+
+div.celda {
+    
+    border: 1px solid #E3E3E3;
+    height: 184px;
+    vertical-align: middle;
+    padding: 0 30px;
+    
+}
+
+div.celda p {
+    
+    color: #B7C2CE;
+    font-size: 20px;
+    
+}
+
+div.celda h5 a{
+    
+    color: #75C1E4;
+    font-family: titulos;
+    font-size: 20px;
+    font-weight: 300;
+    
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    
+}
+
+div.celda h5 a:hover {
+    
+    color: black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
