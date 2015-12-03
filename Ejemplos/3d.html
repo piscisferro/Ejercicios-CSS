@@ -1,0 +1,121 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>3D</title>   
+    <style>
+      
+	    div { 
+            height: 150px; 
+            width: 150px; 
+            margin: 0 auto; 
+        } 
+        
+        .contenedor { 
+            border: 1px solid black; 
+            perspective: 600px; 
+        } 
+        
+        .transformar { 
+            background-color: blue; 
+            
+            /* Para que los hijos preserven el 3d */
+            transform-style: preserve-3d; 
+            
+            transform: rotateY(45deg); 
+        } 
+        
+        .hijo { 
+            /* Con transform-origin haremos que rote desde la parte de arriba*/
+            transform-origin: top left;
+            
+            transform: rotateX(45deg); 
+            background-color: lime; 
+            
+        }
+        
+        .cubo {
+            
+            border: 1px solid black; 
+            position: relative;
+            perspective: 600px;
+            perspective-origin: 150% 50%;
+            margin-top: 150px;
+        }
+        
+        .cara {
+	
+            position: absolute;
+        }
+        
+        .cara1 {
+            
+            background-color: black;
+            
+            
+        }
+        
+        .cara2 {
+            
+            background-color: red;
+            
+            
+        }
+        
+        .cara3 {
+            
+            background-color: lime;
+            
+            transform-origin: right;
+            transform: rotateY(90deg);
+            z-index: 5;
+            
+        }
+        
+        .cara4 {
+            
+            background-color: blue;
+            transform-origin: left;
+            transform: rotateY(-90deg);
+            
+        }
+        
+        .cara5 {
+            
+            background-color: yellow;
+            transform-origin: top;
+            transform: rotateX(90deg);
+            
+        }
+        
+        .cara6 {
+            
+            background-color: orange;
+            transform-origin: bottom;
+            transform: rotatex(-90deg);
+            
+        }
+        
+        
+        
+    </style>
+</head>
+    
+<body>
+	<div id="contenedor">
+	    <div class="transformar"> 
+	        <div class="hijo"></div> 
+	    </div>
+	</div>
+    <div class="cubo">
+        <div class="cara1 cara"></div>
+        <div class="cara2 cara"></div>
+        <div class="cara3 cara"></div>
+        <div class="cara4 cara"></div>
+        <div class="cara5 cara"></div>
+        <div class="cara6 cara"></div>
+    </div>
+
+    
+</body>
+</html>
