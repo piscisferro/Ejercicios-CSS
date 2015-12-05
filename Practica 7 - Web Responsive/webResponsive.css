@@ -1,6 +1,8 @@
 nav,#contenido, #lateral, #lateralSecundario {
     
     float: left;
+    box-sizing: border-box;
+    border: 1px solid black;
     
 }
 
@@ -17,6 +19,20 @@ nav {
     
     width: 10%;
     padding: 0 1%;
+}
+
+
+ul {
+    
+    padding: 0;
+    
+}
+
+
+li {
+    
+    list-style: none;
+    
 }
 
 #contenido {
@@ -42,12 +58,12 @@ nav {
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     
     #lateralSecundario {
         
         width: 60%;
-        margin: 0 0 0 12%;
+        margin: 0 0 0 10%;
         float: none;
 	
     }
@@ -60,7 +76,7 @@ nav {
     
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     
     #lateral {
 	
@@ -106,6 +122,4 @@ nav {
         margin: 0 auto;
         
     }
-    
-    
 }
