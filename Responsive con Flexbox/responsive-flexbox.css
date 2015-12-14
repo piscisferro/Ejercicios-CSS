@@ -1,0 +1,479 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+#wrapper {
+	
+    display: flex;
+    
+}
+
+article {
+    
+    border: 1px solid #d6d6d6;
+    
+}
+
+p {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+nav {
+    
+    display: flex;
+    background-color: beige;
+    box-sizing: border-box;
+    
+}
+
+nav ul {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+}
+
+nav ul li {
+    
+    background-color: white;
+    display: inline-block;
+    
+}
+
+a {
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+section {
+    
+    display: flex;
+    box-sizing: border-box;
+    
+}
+
+
+section article {
+    
+    background-color: white;
+    box-sizing: border-box;
+}
+
+section article h1 {
+    
+    text-align: center;
+    color: white;
+    background-color: orange;
+    margin-top: 0;
+    
+}
+
+aside {
+    
+    display: flex;
+    background-color: grey;
+    box-sizing: border-box;
+    
+}
+
+aside article {
+    
+    box-sizing: border-box;
+    
+}
+
+aside article h1 {
+    
+    margin-left: 20px;
+    
+}
+
+aside article p {
+    
+    margin-top: -20px;
+    
+}
+
+
+@media (max-width: 600px) {
+    
+    #wrapper {
+        
+        flex-direction: column;
+        
+    }
+    
+    nav {
+        
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+    nav ul li {
+        
+        width: 100%;
+        padding: 2px 0;
+        
+    }
+    
+    section {
+        
+       flex-wrap: wrap;
+        
+    }
+    
+    section article {
+        
+        width: 100%;
+        
+    }
+    
+    aside {
+        
+        flex-wrap: wrap;
+        align-self: flex-end;
+        
+    }
+    
+    aside article {
+        
+        width: 50%;
+        height: 100%;
+        display: inline-block;
+    }
+    
+    aside article + article + article {
+        
+        width: 100%;
+        
+    }
+}
+    
+    
+
+
+@media (min-width: 600px) and (max-width: 700px) {
+    
+    #wrapper {
+	
+        flex-direction: column;
+        
+    }
+    
+    nav ul {
+        
+        display: flex;
+        align-content: flex-start;
+        
+    }
+    
+    nav ul li {
+        
+        margin: 0;
+        padding: 10px 15px;
+        
+    }
+    
+    section {
+        
+        flex-wrap: wrap;
+        
+    }
+    
+    section article {
+        
+        display: inline-block;
+        width: 50%;
+        
+    }
+} 
+
+@media (min-width: 700px) and (max-width: 800px) {
+    
+    #wrapper {
+	
+        flex-direction: row; 
+        flex-wrap: wrap;
+
+    }
+    
+    nav {
+        
+        display: inline-flex;
+        text-align: center;
+        width: 30%;
+        
+    }
+    
+    nav ul {
+        
+        width: 100%;
+        
+    }
+    
+    nav ul li {
+        
+        width: 100%;
+        
+    }
+    
+    section {
+        
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 70%;
+        
+    }
+    
+    section article {
+        
+        display: inline-block;
+        width: 50%;
+        
+    }
+    
+    aside {
+        
+        display: inline-flex;
+        width: 100%;
+        
+    }
+} 
+
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    
+    #wrapper {
+	
+        flex-direction: row; 
+
+    }
+    
+    nav {
+        
+        display: inline-flex;
+        text-align: center;
+        width: 30%;
+        
+    }
+    
+    nav ul li {
+        
+        
+        width: 100%;
+        
+    }
+    
+    section {
+        
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 60%;
+        
+    }
+    
+    section article {
+        
+        display: inline-block;
+        width: 50%;
+        
+    }
+    
+    aside {
+        
+        display: inline-flex;
+        width: 30%;
+        flex-wrap: wrap;
+        
+    }
+    
+    aside article {
+        
+        display: inline-block;
+        width: 100%;
+        
+    }
+    
+    
+} 
+
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+    
+    #wrapper {
+	
+        flex-direction: row; 
+
+    }
+    
+    nav {
+        
+        display: inline-flex;
+        text-align: center;
+        width: 15%;
+        
+    }
+    
+    nav ul li {
+        
+        width: 100%;
+        
+    }
+    
+    section {
+        
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 45%;
+        
+    }
+    
+    section article {
+        
+        display: inline-block;
+        width: 50%;
+        
+    }
+    
+    aside {
+        
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 40%;
+        
+    }
+    
+    aside article {
+        
+        display: inline-block;
+        width: 50%;
+    }
+    
+    aside article + article + article {
+        
+        width: 100%;
+    }
+    
+} 
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+    
+    #wrapper {
+	
+        flex-direction: row; 
+
+    }
+    
+    nav {
+        
+        display: inline-flex;
+        text-align: center;
+        width: 15%;
+        
+    }
+    
+    nav ul li {
+        
+        width: 100%;
+        
+    }
+    
+    section {
+        
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 50%;
+        
+    }
+    
+    section article {
+        
+        display: inline-block;
+        width: 33.3%;
+        
+    }
+    
+    section article + article + article + article {
+        
+        width: 100%;
+        
+    }
+    
+    aside {
+        
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 35%;
+        
+    }
+    
+    aside article {
+        
+        display: inline-block;
+        width: 50%;
+    }
+    
+    aside article + article + article {
+        
+        width: 100%;
+    }
+    
+    
+    
+} 
+
+
+@media (min-width: 1200px) {
+    
+    #wrapper {
+	
+        flex-direction: row; 
+
+    }
+    
+    nav {
+        
+        text-align: center;
+        width: 20%;
+        
+    }
+    
+    nav ul li {
+        
+        width: 100%;
+        
+    }
+    
+    section {
+        
+        width: 40%;
+            
+    }
+    
+    aside {
+        
+        width: 40%;
+        
+    }
+    
+    
+} 
+
+
+
